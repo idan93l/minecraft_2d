@@ -1,0 +1,48 @@
+.shovel, .axe, .pickAxe, .mineAxe {
+  height: 8vmin;
+  width: 8vmin;
+  border: 1px solid var(--white);
+}
+
+#invetory {
+  height: 5vmin;
+  width: 5vmin;
+  border: 5px solid var(--white);
+}
+
+.shovel, .axe, .pickAxe, .mineAxe, #invetory, .resetButton {
+  margin: 10% 100% 10% 0;
+  cursor: pointer;
+}
+
+.shovel{
+	background-image: url('../images/minecradt_sprite.png');
+  background-position-x: -272px;
+  background-position-y: -656px;
+}
+
+.axe{
+	background-image: url('../images/minecradt_sprite.png');
+  background-position-x: -272px;
+  background-position-y: -904px;
+  height: 9vmin;
+}
+
+.pickAxe{
+	background-image: url('../images/minecradt_sprite.png');
+  background-position-x: -272px;
+  background-position-y: -1032px;
+  height: 9vmin;
+}
+
+.mineAxe{
+	background-image: url('../images/minecradt_sprite.png');
+  background-position-x: -272px;
+  background-position-y: -784px;
+}
+
+.resetButton {
+  font-size: 40px;
+  background-color: var(--borderAndButton);
+  border: 1px solid var(--white);
+}

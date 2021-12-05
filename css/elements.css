@@ -1,0 +1,42 @@
+.sky {
+  background-color: var(--skyBlue);
+}
+
+.earth {
+  background-image: url('../images/Dirt.PNG');
+  background-size: contain;
+}
+
+.topEarth {
+  background-image: url('../images/Grass.PNG');
+  background-size: cover;
+}
+
+.leaves {
+  background-image: url('../images/Leaves.PNG');
+  background-size: cover;
+}
+
+.rock {
+  background-image: url('../images/Stone.PNG');
+  background-size: cover;
+}
+
+.wood {
+  background-image: url('../images/Wood.PNG');
+  background-size: cover;
+}
+
+.gold{
+  background-image: url('../images/Gold.PNG');
+  background-size: cover;
+}
+
+.redStone {
+  background-image: url('../images/Redstone.PNG');
+  background-size: cover;
+}
+
+.cloud {
+  background-color: var(--white);
+}
